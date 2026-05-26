@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Ju Raymond</title>
+  <meta name="description" content="Get in touch with Ju Raymond to book a session or ask a question." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">Ju Raymond</a>
+      <nav class="nav">
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services & Prices</a>
+        <a class="btn btn-primary active" href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section narrow">
+    <h1>Contact</h1>
+    <p>Use the form below and I’ll get back to you soon.</p>
+
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html" class="form">
+      <input type="hidden" name="form-name" value="contact" />
+      <p class="hidden">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+      </p>
+
+      <div class="grid">
+        <label class="field">
+          <span>Name</span>
+          <input type="text" name="name" required />
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" required />
+        </label>
+      </div>
+
+      <label class="field">
+        <span>Phone (optional)</span>
+        <input type="tel" name="phone" />
+      </label>
+
+      <label class="field">
+        <span>What are you interested in?</span>
+        <select name="interest" required>
+          <option value="">Please select</option>
+          <option>1:1 Yoga</option>
+          <option>Small Group Yoga</option>
+          <option>Holistic Massage</option>
+          <option>General Enquiry</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Message</span>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <button type="submit" class="btn btn-primary">Send message</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ju Raymond. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
