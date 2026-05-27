@@ -57,15 +57,13 @@ p{margin:.5rem 0 1rem}
 .link{color:var(--primary-600);text-decoration:none;font-weight:500}
 
 /* CTA */
-.cta{background:var(--primary);color:#e5ebe8}
-.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:2rem 0}
+.cta{background:var(--primary);color:#e5ebe8;padding-top:3rem;padding-bottom:3rem}
+.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem}
 .cta h2{color:#fff;margin:0}
 
 /* Footer */
 .site-footer{border-top:1px solid #eee;background:#f7f5ef}
-.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:2rem 0}
-.footer-nav{display:flex;gap:1rem}
-.footer-nav a{color:var(--muted);text-decoration:none}
+.footer-inner{display:flex;align-items:center;justify-content:center;gap:1rem;padding:2rem 0}
 
 /* Buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:.6rem 1rem;border-radius:999px;border:1px solid #dcd7ce;background:#fff;color:var(--ink);text-decoration:none;font-weight:500}
