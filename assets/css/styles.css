@@ -75,7 +75,10 @@ p{margin:.5rem 0 1rem}
 
 /* Footer */
 .site-footer{border-top:1px solid #eee;background:#f7f5ef}
-.footer-inner{display:flex;align-items:center;justify-content:center;gap:1rem;padding:2rem 0}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:2rem 0;flex-wrap:wrap}
+.footer-links{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+.footer-links a{color:var(--ink);text-decoration:none;font-weight:600;padding:.35rem .65rem;border-radius:999px;border:1px solid rgba(31,41,55,.12);background:#fff}
+.footer-links a:hover{background:#f9f4f1}
 
 /* Buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:.6rem 1rem;border-radius:999px;border:1px solid #dcd7ce;background:#fff;color:var(--ink);text-decoration:none;font-weight:500}
