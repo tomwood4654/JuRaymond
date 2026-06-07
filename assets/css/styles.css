@@ -38,7 +38,8 @@ p{margin:.5rem 0 1rem}
 .nav{display:flex;gap:1rem;align-items:center;position:relative;margin-left:auto}
 .nav a{color:var(--ink);text-decoration:none;padding:.25rem .5rem;border-radius:8px}
 .nav a:hover{background:#efede7}
-.nav .active{font-weight:600}
+.nav .active{font-weight:600;background:var(--accent);color:var(--ink);border:1px solid rgba(0,0,0,.08)}
+.nav a.active:hover{background:#ffc69e}
 /* Ensure primary button in header has proper contrast */
 .nav a.btn-primary{color:#fff}
 .nav a.btn-primary:hover{color:#fff}
@@ -52,7 +53,7 @@ p{margin:.5rem 0 1rem}
 /* Hero */
 .hero{position:relative;min-height:60vh;display:flex;align-items:center;justify-content:center;background:#fff;text-align:center;overflow:hidden}
 .hero-content{position:relative;color:var(--ink);max-width:720px;padding:6rem 0}
-.hero-logo-holder{display:inline-flex;align-items:center;justify-content:center;padding:1.5rem;border:1px dashed rgba(31,41,55,.18);border-radius:24px;background:rgba(255,255,255,.95);margin:0 auto 1.75rem;max-width:min(420px,100%)}
+.hero-logo-holder{display:inline-flex;align-items:center;justify-content:center;padding:1.5rem;border:none;border-radius:24px;background:rgba(255,255,255,.95);margin:0 auto 1.75rem;max-width:min(420px,100%)}
 .hero-logo-image{display:block;max-width:280px;width:100%;height:auto}
 .hero h1{color:var(--primary-600)}
 .hero p{color:var(--muted);font-size:1.1rem;max-width:56ch;margin:0 auto}
