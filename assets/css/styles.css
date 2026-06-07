@@ -1,12 +1,12 @@
 :root{
-  --bg:#fbf9f4;
+  --bg:#fff6f2;
   --paper:#ffffff;
-  --ink:#1f2937;
-  --muted:#6b7280;
-  --primary:#3b5c50;
-  --primary-600:#2f4a41;
-  --accent:#c2a78b;
-  --ring: rgba(59,92,80,.3);
+  --ink:#3c1f17;
+  --muted:#a55c4b;
+  --primary:#ff6f6a;
+  --primary-600:#d24430;
+  --accent:#ffb37e;
+  --ring: rgba(255,111,106,.2);
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
@@ -45,10 +45,10 @@ p{margin:.5rem 0 1rem}
 
 /* Hero */
 .hero{position:relative;min-height:60vh;display:flex;align-items:center;background-size:cover;background-position:center}
-.hero .overlay{position:absolute;inset:0;background:linear-gradient(to top, rgba(59,92,80,.25), rgba(0,0,0,.15))}
+.hero .overlay{position:absolute;inset:0;background:linear-gradient(to top, rgba(255,111,106,.28), rgba(0,0,0,.14))}
 .hero-content{position:relative;color:#fff;max-width:720px;padding:6rem 0}
 .hero h1{color:#fff}
-.hero p{color:#f3f4f6;font-size:1.1rem;max-width:56ch}
+.hero p{color:#f8eee7;font-size:1.1rem;max-width:56ch}
 .actions{display:flex;gap:.75rem;margin-top:1rem}
 
 /* Cards */
