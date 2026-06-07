@@ -57,6 +57,15 @@ p{margin:.5rem 0 1rem}
 .hero p{color:var(--muted);font-size:1.1rem;max-width:56ch;margin:0 auto}
 .actions{display:flex;gap:.75rem;margin-top:1.5rem;justify-content:center}
 
+.profile-heading{font-size:clamp(3rem,6vw,4rem);margin-bottom:1.5rem}
+.profile-intro{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
+.profile-placeholder{min-height:320px;border:2px dashed rgba(31,41,55,.25);border-radius:24px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:1rem;background:#fff7f3}
+.profile-intro p{margin:0 0 1rem;line-height:1.8;color:#4f2f27}
+
+@media (max-width: 740px){
+  .profile-intro{grid-template-columns:1fr}
+}
+
 /* Cards */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
 .card{background:var(--paper);border:1px solid #eee;border-radius:12px;padding:1.25rem}
